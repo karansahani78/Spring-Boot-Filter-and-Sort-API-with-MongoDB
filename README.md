@@ -189,29 +189,39 @@ Created a ProductRepository interface extending MongoRepository to interact with
 #Service Layer:
 
 -> Developed the ProductService class to handle the core business logic.
+
 -> Implemented methods to filter products by category, price range, and stock availability.
+
 -> Added functionality to sort products based on fields like price, rating, and creation date.
+
 # Controller Layer:
 
 -> Created the ProductController class to expose RESTful endpoints.
+
 -> Implemented an endpoint to fetch products with optional query parameters for filtering and sorting.
 # Testing:
 
 -> Wrote unit tests using JUnit 5 to validate the service layer functionality.
+
 ->Created test cases to check the correctness of filtering and sorting logic.
+
 # Challenges Faced -->
  ## Complex Filtering and Sorting:
 
 -> Combining different filtering and sorting criteria without conflicts was tricky.
+
 -> Ensuring that the application can handle multiple criteria simultaneously required careful design.
 ## MongoDB Integration:
 
 -> Setting up a reliable connection to the MongoDB database and handling data types correctly was a challenge.
+
 -> Ensuring smooth interaction with MongoDB for both development and testing phases.
 # Managing Test Data:
 
 -> Keeping test data consistent across various test cases was essential for reliable tests.
+
 -> Ensuring that tests are repeatable and not dependent on the state of the database was crucial.
+
 # Documentation and Examples:
 
 -> Providing clear documentation and sample requests to demonstrate the API’s functionality.
