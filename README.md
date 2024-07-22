@@ -186,7 +186,7 @@ GET "http://localhost:8080/api/products?sortField=createdAt&sortOrder=asc"
 I started by creating a Spring Boot project and configured it to connect with MongoDB.
 Defined the Product model to map to the product documents in MongoDB.
 Created a ProductRepository interface extending MongoRepository to interact with the MongoDB collection.
-#Service Layer:
+# Service Layer:
 
 -> Developed the ProductService class to handle the core business logic.
 
